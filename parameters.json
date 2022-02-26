@@ -1,0 +1,26 @@
+{
+	"stride_medication": {
+        "new_name_table": "stride_medication",
+        "medication_id": "medication_id",
+		"start_time": "start_time",
+		"end_time": "end_time",
+		"number_of_times": "number_of_times",
+		"freq_name": "freq_name",
+		"sig": "sig",
+		"hv_discrete_dose": "hv_discrete_dose",
+		"hv_dose_unit": "hv_dose_unit",
+		"ordering_mode": "ordering_mode"	
+	},
+
+	"stride_medication_def": {
+        "new_name_table": "stride_medication_def",
+        "medication_id": "medication_id",
+		"str": "str",
+		"strength": "strength",
+		"route": "route",
+		"form": "form",
+		"thera_class": "thera_class",
+		"pharm_class": "pharm_class",
+		"pharm_subclass": "pharm_subclass"
+	}
+}
