@@ -21,12 +21,16 @@ Three important tables are needed to compute MME from opioid prescriptions. We w
 
 For more details of tables' columns, please read the file named [TableInformation.pdf](TableInformation.pdf) 
 
+<br />
+
+<br />
 
 [comment]: <> (### B Execution) 
 B) Execution
 ---------------
 There are two ways to execute the code to convert opioid prescription to MMEs as described below:
 
+<br />
 
 **B.1)**	**Default:** if your database presents the same tables' and columns' names, it is not needed to edit the code. You only need to execute by order the SQL files found in the directory "SQL-Default".
   - 1-get_strength
@@ -40,6 +44,7 @@ There are two ways to execute the code to convert opioid prescription to MMEs as
   - 9-conversion-to-MME
   - 10-Additional-NDC_Table
 
+<br />
 
 **B.2)**	**Edit names**: this table contains the list of medications used in the EHR system (old and current medications). It’s usually named “stride_medication_def”.
 
