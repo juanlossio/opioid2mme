@@ -28,5 +28,13 @@ B) Execution
 There are two ways to execute the code to convert opioid prescription to MMEs as described below:
 
 
+I.	**Default:** if your database presents the same tables' and columns' names, it is not needed to edit the code. You only need to execute by order the SQL files found in the directory "SQL-Default".
+
+II.	**Edit names**: this table contains the list of medications used in the EHR system (old and current medications). It’s usually named “stride_medication_def”.
+
+
+
+
+
 
 ![Image of Parameters File](img_parameters_file.png)
