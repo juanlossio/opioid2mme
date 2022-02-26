@@ -7,7 +7,9 @@
 
 <br />
 
-### A) Tables needed
+A) Tables needed
+---------------
+
 ##### Documentation of code to convert opioid prescriptions to morphine milligram equivalents (MME)
 Three important tables are needed to compute MME from opioid prescriptions. We will detail this in the following lines:
 
@@ -18,6 +20,13 @@ Three important tables are needed to compute MME from opioid prescriptions. We w
 3.	**Morphine Equivalent**: this table will be CREATED by the user. It will be called “ome_stride_medication_morph_eq_fnl”. It’s not needed to edit its table name and columns’ names. This will contain opioid medications and their associated values of conversion in order to compute the final MME.
 
 For more details of tables' columns, please read the file named [TableInformation.pdf](TableInformation.pdf) 
+
+
+[comment]: <> (### B Execution) 
+B) Execution
+---------------
+There are two ways to execute the code to convert opioid prescription to MMEs as described below:
+
 
 
 ![Image of Parameters File](img_parameters_file.png)
