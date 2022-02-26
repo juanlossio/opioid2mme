@@ -33,20 +33,20 @@ There are two ways to execute the code to convert opioid prescription to MMEs as
 <br />
 
 **B.1)**	**Default:** if your database presents the same tables' and columns' names, it is not needed to edit the code. You only need to execute by order the SQL files found in the directory "SQL-Default".
-  - 1-get_strength
-  - 2-get_frequency
-  - 3-get_dosage
-  - 4-get_mme_factor
-  - 5-get_rx_length
-  - 6-compute_mme_per_day
-  - 7-compute_mme_total
-  - 8-morphine-equiv-table
-  - 9-conversion-to-MME
-  - 10-Additional-NDC_Table
+  - 1-get_strength.sql
+  - 2-get_frequency.sql
+  - 3-get_dosage.sql
+  - 4-get_mme_factor.sql
+  - 5-get_rx_length.sql
+  - 6-compute_mme_per_day.sql
+  - 7-compute_mme_total.sql
+  - 8-morphine-equiv-table.sql
+  - 9-conversion-to-MME.sql
+  - 10-Additional-NDC_Table.sql
 
 <br />
 
-**B.2)**	**Edit names**: this table contains the list of medications used in the EHR system (old and current medications). It’s usually named “stride_medication_def”.
+**B.2)**	**Edit names**: to change information from your medication and medicaton definition tables, follow the next steps: 
 
 
 
