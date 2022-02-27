@@ -47,10 +47,11 @@ There are two ways to execute the code to convert opioid prescription to MMEs as
 <br />
 
 **B.2)**	**Edit names**: to change information from your medication and medicaton definition tables, follow the next steps: 
+Open "
 
+```console
+[user]@[pc] opioid2mme:~$ python create_sql_new_parameters.py
+```
 
+<img src="img_parameters_file.png" alt="Image of Parameters File" style="width:70%;"/>
 
-
-
-
-![Image of Parameters File](img_parameters_file.png)
