@@ -47,11 +47,15 @@ There are two ways to execute the code to convert opioid prescription to MMEs as
 <br />
 
 **B.2)**	**Edit names**: to change information from your medication and medicaton definition tables, follow the next steps: 
-Open "
+
+1. Open and edit the json parameters file named **parameters.json**. Next figure shows tables and their columns with default values. You can change the default values as appear in your database. 
+
+<img src="img_parameters_file.png" alt="Image of Parameters File" style="width:70%;"/>
+
+2. You then can run a python file named **create_sql_new_parameters.py**. For this, open terminal, go to the opioid2mme directory and write the following: 
 
 ```console
 [user]@[pc] opioid2mme:~$ python create_sql_new_parameters.py
 ```
-
-<img src="img_parameters_file.png" alt="Image of Parameters File" style="width:70%;"/>
+3. Finally, a new **9-conversion-to-MME_customized.sql** is created. This SQL file contains all the input instructions and variables. 
 
