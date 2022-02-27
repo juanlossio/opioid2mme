@@ -2,7 +2,10 @@
 
 ## Standardizing Opioid Prescriptions to Morphine Milligram Equivalents from Electronic Health Records
 
-#### Note that this is a temporary repository. Permanent repository is available at [https://code.stanford.edu/boussardlab/mme](https://code.stanford.edu/boussardlab/mme)
+#### Note that this is a temporary repository. Permanent repository is available at 
+<a href="https://code.stanford.edu/boussardlab/mme" target="_blank">https://code.stanford.edu/boussardlab/mme</a>
+
+[https://code.stanford.edu/boussardlab/mme](https://code.stanford.edu/boussardlab/mme)
 ##### (*Once all issues are solved in the permanent repository, this temporary repository will be removed*)
 
 <br />
